@@ -1,0 +1,68 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: rgb(69, 104, 104);
+    
+}
+a:hover{
+    color:black;
+}
+body{
+    background-color: #1c1cb538;;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.outer{
+    position: absolute;
+    top:50% ;
+    bottom: 50%;
+    height: 13rem;
+    width: 9rem;
+    background-color:  #f0ede4;
+    border-radius: 0.5rem;
+ 
+}
+
+.inner{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: .5rem;
+    height: 8rem;
+    width: 8rem;
+   
+
+    
+   
+}
+
+img{
+    width:100%;
+    height: 100%;
+    display:flex;
+    border-radius: 0.5rem;
+   
+}
+
+
+
+
+
+.attribution{
+    text-align: center;
+    color:gray;
+   position: relative;
+   margin-top: 25rem;
+}
