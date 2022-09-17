@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+
+:root{
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+
+}
+
+
 html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
+   
 }
 
 a{
@@ -12,7 +25,9 @@ a:hover{
     color:black;
 }
 body{
-    background-color: #1c1cb538;;
+    background-color: #1c1cb538;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .container{
@@ -26,22 +41,29 @@ body{
     position: absolute;
     top:50% ;
     bottom: 50%;
-    height: 13rem;
-    width: 9rem;
+    height: 21.5rem;
+    width:  14.2rem;
     background-color:  #f0ede4;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
+    padding-top: .2rem;
+    padding-left: .1rem;
+    padding-right: .1rem ;
+   
  
 }
 
 .inner{
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    border-radius: .5rem;
-    height: 8rem;
-    width: 8rem;
+    border-radius: .6rem;
+    height: 12rem;
+    width: 12.5rem;
+    margin-top: .2rem;
+    margin-left: -.05rem;
+    
    
 
     
@@ -52,11 +74,29 @@ img{
     width:100%;
     height: 100%;
     display:flex;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
+    
    
 }
 
+p{
+    margin: 1.1rem 0.1rem 0.1rem 0.1rem;   
+    text-align: center;
+    justify-content:center;
+    font-weight: 400;
+    color: var(--Grayish-blue);
+    
+}
 
+h2{
+    margin: 12.9rem 0.1rem 0.1rem 0.1rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--Dark-blue);
+    justify-content: center;
+    
+
+}
 
 
 
