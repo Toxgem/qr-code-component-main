@@ -30,54 +30,22 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-.container{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-}
-
-
-.outer{
-    
-    top:50% ;
-    bottom: 50%;
-    height: 21.5rem;
-    width:  14.2rem;
+    min-height: 100%;
+    width:  13rem;
     background-color:  #f0ede4;
     border-radius: 0.6rem;
-    padding-top: .2rem;
-    padding-left: .1rem;
-    padding-right: .1rem ;
-   
- 
+    padding: 5px 5px 5px 5px;
+    margin: auto;
 }
 
-.inner{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    border-radius: .6rem;
-    height: 12rem;
-    width: 12.5rem;
-    margin-top: .2rem;
-    margin-left: -.05rem;
-    
-   
 
-    
-   
-}
+
 
 img{
     width:100%;
@@ -89,7 +57,7 @@ img{
 }
 
 p{
-    margin: 1.1rem 0.1rem 0.1rem 0.1rem;   
+    margin: 0.25rem 0.1rem 0.1rem 0.1rem;   
     text-align: center;
     justify-content:center;
     font-weight: 400;
@@ -98,7 +66,7 @@ p{
 }
 
 h1{
-    margin: 12.9rem 0.1rem 0.1rem 0.1rem;
+    margin: .5rem 0.1rem 0.25rem 0.1rem;
     text-align: center;
     font-weight: 700;
     color: var(--Dark-blue);
@@ -112,6 +80,6 @@ h1{
 .attribution{
     text-align: center;
     color:gray;
-   position: relative;
-   margin-top: 25rem;
+   
+   margin-top: 5rem;
 }
