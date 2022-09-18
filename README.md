@@ -70,5 +70,6 @@ I am looking for future feedback, I will receive any sugestions for improvements
 
 A good frind of mine suggested a few changes here and there in the margin themes, contrast checkers,
 so big props for Jonathan and Omar
+Thanks to Lucas and Hyron for their advices
 
 
